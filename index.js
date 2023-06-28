@@ -62,5 +62,5 @@ app.delete('/api/events/:id', (req, res) => {
     res.send(event);
 });
 
-const port = process.env.port || 22;
+const port = process.env.port || 3002;
 app.listen(port, () => console.log(`Escuchando en puerto ${ port }...`));
